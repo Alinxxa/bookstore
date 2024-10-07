@@ -1,0 +1,238 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+/* .header_container{
+  background-image:linear-gradient( rgba(0, 0, 0, 0.7),  rgba(0, 0, 0, 0.7) ), url("./img/f2431a33b0913b69611ea534badffae3.jpg"); background-size: 100%;
+  background-size: cover;
+  width: 100%;
+  padding-bottom: 5%;
+}    */
+
+.header{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  height: 100px;
+}
+
+
+.link{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  line-height: 120px;
+  padding: 0px 23px;
+  color: #212121;
+}
+
+
+.logo{
+  display: inline;
+  color: #212121;
+  width: 128px;
+  height: 28px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 28px;
+}
+
+.burger{
+  display: none;
+  width: 40px;
+
+}
+
+.line{
+  width: 100%;
+  height: 5px;
+  margin-bottom: 5px;
+  background-color: #212121;
+} 
+
+
+
+
+.container{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  background-image:linear-gradient( rgba(0, 0, 0, 0.7),  rgba(60, 60, 60, 0.7) ), url("./img/f2431a33b0913b69611ea534badffae3.jpg"); 
+  background-size: cover;
+  width: 100%;
+}
+
+.card{
+  display: inline-block;
+  background-color:rgb(86, 77, 66);
+  box-shadow: 5px 5px rgba(47, 46, 46, 0.722);
+  width: 200px;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+  vertical-align: middle;
+  position: relative;
+}
+
+
+
+.card-title{
+  color: white;
+  text-decoration: none;
+}
+
+.card-img{
+  height: 300px;
+  width: 193px;
+  border-radius: 11px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+img{
+  object-fit: cover;
+  height: 310px;
+  width: 300px;
+
+}
+
+.card-sub{
+  color: rgb(181, 181, 181);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+.card-price{
+  color: white;
+}
+
+.card-price2{
+  color: white;
+  text-decoration:line-through;
+  float: left;
+  margin-left: 40px;
+}
+.card-price-sale{
+  color: rgb(254, 83, 83);
+  float: left;
+  margin-left: 15px;
+}
+
+.card-title:hover{
+  color: rgb(254, 83, 83);
+}
+.card-img:hover{
+  opacity: 0.7;
+}
+.add-to-cart{
+  position: absolute;
+  right: 20px;
+  bottom: 8px;
+  background: #ca5252;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: 600;
+  transition: transform 500ms ease;
+}
+.add-to-cart:hover{
+  transform: scale(1.5);
+}
+
+
+
+
+.sign{
+  background-image:linear-gradient( rgba(0, 0, 0, 0.7),  rgba(60, 60, 60, 0.7) ), url("./img/f2431a33b0913b69611ea534badffae3.jpg"); 
+  background-size: cover;
+  width: 100%;
+  background-blend-mode:overlay;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+}
+
+.registration-cssave{
+  padding:50px 0;
+}
+
+.text-center{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  line-height: 120px;
+  padding: 0px 23px;
+  color: #212121;
+}
+
+.registration-cssave form {
+  max-width:800px;
+  padding:50px 70px;
+  border-radius:10px;
+  box-shadow:4px 4px 15px rgba(0, 0, 0, 0.2);
+  background-color:#fff;
+}
+
+.registration-cssave form h3 {
+  font-weight:bold;
+  margin-bottom:30px;
+}
+
+.registration-cssave .item {
+  border-radius:10px;
+  margin-bottom:25px;
+  padding:10px 20px;
+}
+
+.registration-cssave .create-account {
+  border-radius:30px;
+  padding:10px 20px;
+  font-size:18px;
+  font-weight:bold;
+  background-color:rgb(86, 77, 66);
+  border:none;
+  color:white;
+  margin-top:20px;
+}
+
+@media (max-width: 576px) {
+  .registration-cssave form {
+    padding:50px 20px;
+  }
+}
+
+.linkk{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  line-height: 120px;
+  padding: 0px 23px;
+  color: #212121;
+}
